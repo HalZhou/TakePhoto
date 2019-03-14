@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:id="@+id/textView0"
+        android:textSize="14sp"
+        android:background="@drawable/bg_custom_dialog_top"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2px"
+        android:background="@drawable/bg_custom_dialog_bottom"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:id="@+id/textView1"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_custom_dialog_cancel"
+        android:layout_marginTop="10dp"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:id="@+id/tvCancel"
+        android:text="取消"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"/>
+
+
+</LinearLayout>
